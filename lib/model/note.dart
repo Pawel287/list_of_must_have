@@ -1,14 +1,17 @@
+/*
+import 'dart:html';
+
+import 'package:list_of_must_have/model/note.dart';
+
 class Note {
-  int id;
-  String title;
-  String content;
-  //int creationDate;
+  int _id;
+  String _title;
+  String _content;
+  int _creationDate;
 
 
-  Note(this.id, this.title, this.content);
-}
+  Note(this._id, this._title, this._content, this._creationDate);
 
-  /*
   int get id => _id;
 
   String get title => _title;
@@ -23,3 +26,4 @@ class Note {
   }
 }
 */
+
