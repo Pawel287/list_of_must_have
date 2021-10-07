@@ -1,4 +1,4 @@
-/*
+
 import 'dart:html';
 
 import 'package:list_of_must_have/model/note.dart';
@@ -20,10 +20,5 @@ class Note {
 
   int get creationDate => _creationDate;
 
-  String get date {
-    final date = DateTime.fromMillisecondsSinceEpoch(creationDate);
-    return DateFormat('EEE h:mm a, dd/MM/yyyy').format(date);
-  }
 }
-*/
 

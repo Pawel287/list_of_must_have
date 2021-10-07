@@ -13,6 +13,15 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: title,
+      themeMode: ThemeMode.dark,
+      theme: ThemeData(
+        primaryColor: Colors.black,
+        scaffoldBackgroundColor: Colors.blueGrey.shade900,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text(title),
